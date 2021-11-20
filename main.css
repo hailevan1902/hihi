@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(./img/hinh-nen-mau-hong-22.jpg);
+    color: rgb(183, 20, 20);
+    position: relative;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+a{
+    display: inline-block;
+    margin: 50px 50px;
+    transform: translateX(200%);
+    color: red;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    position: absolute ;
+}
+
+#a{
+    left: 30%;
+}
+
+a:hover{
+    background-color: rgb(222, 220, 220);
+}
+
+.tb{
+    height: 0;
+    width: 50%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    transform: translate(50%, -100%);
+    border-radius: 50px;
+    transition: height 0.15s linear ;
+    top: 200px;
+}
+
+h4{
+    position: absolute;
+    left: 17%;
+    top: 40%;
+    display: none;
+}
+
+#oke{
+    position: absolute;
+    top: 20%;
+    left: -23%;
+    display: none;
+    font-size: 14px;
+    background-color: yellow;
+    color: black;
+}
