@@ -9,6 +9,7 @@ body{
     background-image: url(./img/hinh-nen-mau-hong-22.jpg);
     color: rgb(183, 20, 20);
     position: relative;
+    background-repeat: no-repeat ;
 }
 
 h3{
